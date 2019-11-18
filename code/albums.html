@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>The Piano Guys
+    </title>
+    
+     <link href="css/reset.css" rel="stylesheet" type="text/css">
+    
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://use.typekit.net/guo6myb.css">
+    
+</head> 
+
+<body>
+    
+    <div class="container">
+        
+<!--header & navigation-->
+        
+<div class="grid-container"> 
+    
+    <div class="item1">
+        
+ <h1 class="headertitle">THE<br>PIANO<br>GUYS</h1>  
+
+<div id="navigation">
+    
+<div class="pianonav">
+    <a href="about.html">ABOUT</a>
+</div>
+        
+<div class="pianonavblack">
+    <a href="videos.html">VIDEOS</a>
+</div>
+
+<div class="pianonav">
+    <a  href="index.html">HOME</a>
+</div>
+            
+<div class="pianonavblack">
+    <a class="active" href="albums.html">ALBUMS</a>
+</div>
+        
+<div class="pianonav">
+    <a href="shows.html">SHOWS</a>
+</div>
+    
+</div>
+    
+        <video autoplay muted loop id="headervideo" src="img/tpgvidloop.mp4" type="video/mp4">
+        </video>
+        
+</div> <!--end item1--> 
+    
+<!--page start-->      
+
+<div class="item3">
+    <!--java for modal-->
+    <script>
+    var modals = document.getElementsByClassName('modal');
+// Get the button that opens the modal
+var btns = document.getElementsByClassName("openmodal");
+var spans=document.getElementsByClassName("close");
+for(let i=0;i<btns.length;i++){
+   btns[i].onclick = function() {
+      modals[i].style.display = "block";
+   }
+}
+for(let i=0;i<spans.length;i++){
+    spans[i].onclick = function() {
+       modals[i].style.display = "none";
+    }
+ }
+    </script>
+    <!--end java for modal-->
+    
+    <div class="listenlatestpink"></div>
+    <div class="listenlatest">
+   
+        <h2 class="indexhead">ALBUMS<BR>OUT NOW!</h2>
+            </div>
+     
+    <div class="limitlessalbum">
+        <div>
+         <img src="img/limitless.jpg" id="limitless">
+              </div>
+        <div class="celllimit">
+            <h3>LIMITLESS, <em>2018</em></h3>
+            <p class="albumlisttop">1 Something Just Like This / Hungarian Rhapsody<br>
+            2 Rewrite The Stars<br>
+            3 A Million Dreams<br>
+            4 In My Blood / Swan Lake<br> 
+            5 Limitless<br>
+            6 DNA<br>
+            7 Walking The Wire / Largo<br>
+            8 Perfect<br>
+            9 Epiphany<br>
+            10 Flicker<br>
+            11 North Cape<br>
+            12 First Dance<br>
+            13 Miracles</p>
+        </div>
+    </div>
+        
+    <div class="albumcontainer">
+        
+        <!--start modal-->
+        <!--modal trigger-->
+        <div class="cell cell-1">
+            <a class="openmodal"><img id="ctimg"  src="img/christmastogether.jpg" class="albumimgs">
+                <p>Christmas Together, 2017</p></a>
+        </div>
+        
+        <!--modal-->
+   <div class="modal myModal">
+       
+       <!--modal content-->
+       <div class="modal-content">
+           <span class="close">&times;</span>
+           <div>
+      <img src="img/christmastogether.jpg">
+      <h4>Christmas Together</h4>
+    <p>1 Angels from the Realms of Glory <br>
+      2 O Holy Night / Ave Maria <br>
+      3 Mary Did You Know / Corelli Christmas Concerto <br>
+        4 Ode to Joy to the World <br>
+        5 What Child Is This <br>
+        6 Gloria / Hark! The Herald Angels Sing <br>
+        7 O Little One Sweet, BWV 493 <br>
+        8 Little Drummer Boy / Do You Hear What I Hear <br>
+        9 Silent Night, Holy Night <br>
+        10 I Saw Three Ships <br>
+        11 The Manger <br>
+        12 The Sweetest Gift <br>
+      </p>
+           </div>
+       </div>
+        </div>
+        <!--end modal-->
+        
+        
+        <div class="cell cell-2">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal"><img id="ctimg" src="img/sofarsogood.jpg" class="albumimgs">
+                <p>So Far, So Good, 2017</p></a>
+        </div>
+        
+<!--modal-->
+    <div class="modal myModal">
+        
+        <!--modal content-->
+  <div class="modal-content">
+      <span class="close">&times;</span>
+      <div>
+      <img src="img/sofarsogood.jpg">
+      <h4>So Far, So Good</h4>
+    <p>1 (It's Gonna Be) Okay ft. Cliff Richard<br>
+      2 A Thousand Years <br>
+      3 Fight Song / Amazing Grace <br>
+        4 The Cello Song <br>
+        5 Father's Eyes <br>
+        6 Beethoven's 5 Secrets <br>
+        7 Let It Go <br>
+        8 Michael Meets Mozart <br>
+        9 Titanium / Pavane <br>
+        10 Hello / Lacrimosa <br>
+        11 All of Me <br>
+        12 What Makes You Beautiful <br>
+        13 (It's Gonna Be) Okay
+      </p>
+        </div>
+        </div>
+        </div>
+        <!--end modal-->
+
+        
+        <div class="cell cell-3">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+            <img id="ctimg" src="img/uncharted.jpg" class="albumimgs">
+                <p>Uncharted, 2016</p></a>
+        </div>
+        
+        <!--modal-->
+    <div class="modal myModal">
+        
+        <!--modal content-->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div>
+      <img src="img/uncharted.jpg">
+      <h4>Uncharted</h4>
+    <p>1 (It's Gonna Be) Okay ft. Cliff Richard<br>
+      2 A Thousand Years <br>
+      3 Fight Song / Amazing Grace <br>
+        4 The Cello Song <br>
+        5 Father's Eyes <br>
+        6 Beethoven's 5 Secrets <br>
+        7 Let It Go <br>
+        8 Michael Meets Mozart <br>
+        9 Titanium / Pavane <br>
+        10 Hello / Lacrimosa <br>
+        11 All of Me <br>
+        12 What Makes You Beautiful <br>
+        13 (It's Gonna Be) Okay
+      </p>
+        </div>
+        </div>
+        </div>
+        <!--end modal-->
+        
+        <div class="cell cell-4">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/live.jpg" class="albumimgs">
+            <p>Live!, 2015</p></a>
+        </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div>
+      <img src="img/live.jpg">
+      <h4>Live!</h4>
+    <p>1 The Piano Guys (Introduction)<br>
+      2 Let It Go<br>
+      3 All of Me <br>
+        4 Introduction <br>
+        5 With or Without You <br>
+        6 Without You feat. Peter Hollens <br>
+        7 Introduction <br>
+        8 Summer Jam<br>
+        9 Introduction <br>
+        10 Father's Eyes<br>
+        11 Beethoven's 5 Secrets <br>
+        12 Introduction <br>
+        13 The Cello Song
+        <br>
+        14 Introduction <br>
+        15 The Mission / How Great Thou Art <br>
+        16 Introduction <br>
+        17 A Thousand Years feat. Julie Nelson <br>
+        18 Peponi (Paradise) feat. Alex Boye'<br>
+        19 What Makes You Beautiful
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--end modal-->
+        
+        <div class="cell cell-5">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/wonders.jpg" class="albumimgs">
+                <p>Wonders, 2014</p></a>
+        </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/wonders.jpg">
+      <h4>Wonders</h4>
+    <p>1 Story Of My Life<br>
+      2 Let It Go <br>
+      3 Ants Marching / Ode To Joy <br>
+        4 Fathers' Eyes <br>
+        5 Kung Fu Piano: Cello Ascends <br>
+        6 Summer Jam<br>
+        7 Batman Evolution<br>
+        8 Don't You Worry Child (feat. Shweta Subram) <br>
+        9 Home <br>
+        10 The Mission / How Great Thou Art <br>
+        11 Because of You <br>
+        12 Pictures at an Exhibition 
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--endmodal-->
+        
+        
+        <div class="cell cell-6">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/popmeetsclassical.jpg" class="albumimgs">
+                <p>Pop Meets Classical, 2014</p></a>
+        </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/popmeetsclassical.jpg">
+      <h4>Pop Meets Classical</h4>
+    <p>1 Let It Go<br>
+      2 Rockelbel's Canon (Pachelbel Canon in D)<br>
+      3 What Makes You Beautiful<br>
+        4 The Cello Song <br>
+        5 Charlie Brown Medley <br>
+        6 Peponi (Paradise) <br>
+        7 Mission Impossible <br>
+        8 Waterfall<br>
+        9 Beethoven's 5 Secrets<br>
+        10 Cello Wars <br>
+        11 Titanium / Pavane <br>
+        12 Rolling In The Deep <br>
+        13 All of Me <br>
+        14 Story of My Life <br>
+        15 Code Name Vivaldi <br>
+        16 Begin Again <br>
+        17 Michael Meets Mozart <br>
+        18 A Thousand Years <br>
+        19 Twinkle Lullaby <br>
+        20 Pictures at an Exhibition
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--endmodal-->
+        
+        <div class="cell cell-7">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/afamilychristmas.jpg" class="albumimgs">
+                <p>A Family Christmas, 2013</p></a>
+        </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/afamilychristmas.jpg">
+      <h4>A Family Christmas</h4>
+    <p>1 Angels We Have Heard On High<br>
+      2 O Come, O Come Emmanuel <br>
+      3 Good King Wenceslas <br>
+        4 CArol of the Bells / God Rest Ye Merry Gentlemen<br>
+        5 Where Are You Christmas?<br>
+        6 Let It Snow / Winter Wonderland <br>
+        7 Stil, Still, Still<br>
+        8 We Three Kings<br>
+        9 Away In A Manger<br>
+        10 Christmas Morning<br>
+        11 Winter Wind<br>
+        12 Silent Night
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--endmodal-->
+        
+        <div class="cell cell-8">
+            <!--startmodal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/thepianoguys2.jpg" class="albumimgs">
+                <p>The Piano Guys 2, 2013</p></a>
+        </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/thepianoguys2.jpg">
+      <h4>The Piano Guys 2</h4>
+    <p>1 Begin Again<br>
+      2 Rockelbel's Canon (Pachelbel Canon in D)<br>
+      3 Mission Impossible (feat. Lindsey Stirling) <br>
+        4 Lord of the Rings <br>
+        5 Berlin<br>
+        6 All of Me<br>
+        7 Just The Way You Are<br>
+        8 Nearer My God To Thee<br>
+        9 Waterfall <br>
+        10 Charlie Brown Medley <br>
+        11 Me and My Cello (Happy Together) <br>
+        12 Twinkle Lullaby
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--endmodal-->
+        
+        <div class="cell cell-9">
+            <!--start modal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/thepianoguys.jpg" class="albumimgs">
+                <p>The Piano Guys, 2012</p></a>
+        </div> 
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/thepianoguys.jpg">
+      <h4>The Piano Guys</h4>
+    <p>1 Titanium / Pavane<br>
+      2 Peponi (Paradise) <br>
+      3 Code Name Vivaldi <br>
+        4 Beethoven's 5 Secrets <br>
+        5 Over The Rainbow / Simple Gifts <br>
+        6 Cello Wars<br>
+        7 Arwen's Vigil <br>
+        8 Moonlight<br>
+        9 A Thousand Years <br>
+        10 Michael Meets Mozart<br>
+        11 The Cello Song <br>
+        12 Rolling In The Deep <br>
+        13 What Makes You Beautiful
+      </p>
+        </div>
+                </div>
+        </div>
+        <!--endmodal-->
+        
+        <div class="cell cell-10">
+            <!--startmodal-->
+            <!--modal trigger-->
+            <a class="openmodal">
+        <img id="ctimg" src="img/hitsvolume1.jpg" class="albumimgs">
+                <p>Hits Volume 1, 2011</p></a>
+    </div>
+        
+        <!--modal-->
+            <div class="modal myModal">
+                
+                <!--modal content-->
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div>
+      <img src="img/hitsvolume1.jpg">
+      <h4>Hits Volume 1</h4>
+    <p>1 Michael Meets Mozart<br>
+      2 Moonlight <br>
+      3 Without You (Live) <br>
+        4 The Cello Song <br>
+        5 Rolling In The Deep <br>
+        6 Cello Wars (Radio Edit)<br>
+        7 O Fortuna (Carmina Burana) <br>
+        8 Bring Him Home<br>
+        9 Charlie Brown Medley <br>
+        10 Rock Meets Rachmaninoff <br>
+        11 All of Me <br>
+        12 More Than Words <br>
+        13 Twinkle Lullaby
+      </p>
+        </div>
+                </div>
+    </div>
+    
+        <!--java for modal-->
+        
+        <script>
+        var modals = document.getElementsByClassName('modal');
+// Get the button that opens the modal
+var btns = document.getElementsByClassName("openmodal");
+var spans=document.getElementsByClassName("close");
+for(let i=0;i<btns.length;i++){
+   btns[i].onclick = function() {
+      modals[i].style.display = "block";
+   }
+}
+for(let i=0;i<spans.length;i++){
+    spans[i].onclick = function() {
+       modals[i].style.display = "none";
+    }
+ }
+        </script> <!--end java for code-->
+        
+        </div><!--end item3-->
+        
+<div class="item5">
+<footer class="footer"><br>©2019 The Piano Guys
+    <br>
+    https://thepianoguys.com
+    <br>
+    <br>
+    <br><!--
+    Find us on YouTube, Pandora, Spotify, Apple Music, Deezer,<br>Google Play, iHeartRadio, TuneIn, and Amazon Music-->
+    
+    <div class="socialicons">
+        <a href="https://www.deezer.com/us/artist/1616371" target="_blank"><img src="img/png/social%20icons-01.png" class="footericon"></a>
+        <a href="https://www.iheart.com/artist/the-piano-guys-723067/" target="_blank"><img src="img/png/social%20icons-02.png" class="footericon"></a>
+        <a href="https://www.youtube.com/channel/UCmKurapML4BF9Bjtj4RbvXw" target="_blank"><img src="img/png/social%20icons-03.png" class="footericon"></a>
+        <a href="https://tunein.com/artist/The-Piano-Guys-m700610/" target="_blank">
+        <img src="img/png/social%20icons-04.png" class="footericon"></a>
+        <a href="https://twitter.com/thepianoguys?lang=en" target="_blank"><img src="img/png/social%20icons-05.png" class="footericon"></a>
+        <a href="https://www.pandora.com/artist/the-piano-guys/ARKx2vJl3J9prr6" target="_blank"><img src="img/png/social%20icons-06.png" class="footericon"></a>
+        <a href="https://open.spotify.com/artist/0jW6R8CVyVohuUJVcuweDI" target="_blank"><img src="img/png/social%20icons-07.png" class="footericon"></a>
+        <a href="https://www.instagram.com/thepianoguys/?hl=en" target="_blank"><img src="img/png/social%20icons-08.png" class="footericon"></a>
+        <a href="https://play.google.com/store/music/artist/The_Piano_Guys?id=A2hz7fchbmpiqy6piyrslpbljem&hl=en_US" target="_blank"><img src="img/png/social%20icons-09.png" class="footericon"></a>
+        <a href="https://www.facebook.com/ThePianoGuys/" target="_blank"><img src="img/png/social%20icons-10.png" class="footericon"></a>
+        <a href="https://music.apple.com/us/artist/the-piano-guys/498030399" target="_blank"><img src="img/png/social%20icons-11.png" class="footericon"></a>
+        <a href="https://www.amazon.com/Piano-Guys/dp/B008XX6J4C" target="_blank"><img src="img/png/social%20icons-12.png" class="footericon"></a>
+    </div>
+</footer>
+    </div> <!--end item5--> 
+    
+    </div> <!--end grid-container--> 
+        
+    </div> <!--end container-->
+    
+    </body>
+    
+</html>

@@ -1,0 +1,688 @@
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    z-index: -1;
+    color: gold;
+}
+
+/*navbar*/
+
+#navigation {
+    position: absolute;
+    margin-top: 250px;
+    z-index: 1;
+}
+
+.pianonav {
+    background-color: white;
+    width: 350px;
+    text-align: right;
+    padding: 15px; 
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px; 
+    border: 1px black solid;
+}
+
+.pianonavblack {
+    background-color: black;
+    width: 200px;
+    text-align: right;
+    padding: 5px 15px;
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.pianonav a {
+    text-decoration: none;
+    color: gold;
+}
+
+.pianonavblack a {
+    text-decoration: none;
+    color: gold;
+}
+
+.pianonav:hover {
+    background-color:#f2f2f2;
+}
+
+.pianonavblack:hover {
+    background-color: #1c1c1c;
+}
+
+.pianonav a:hover {
+    color: deeppink;
+}
+
+.pianonavblack a:hover {
+    color: deeppink;
+}
+
+.pianonav a.active {
+    color: deeppink;
+}
+
+.pianonavblack a.active {
+    color: deeppink;
+}
+
+h1 {
+    font-family: stratos, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: deeppink;
+}
+
+h2 {
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: deeppink;
+    font-size: 80px;
+}
+
+h3 {
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style:normal
+        color: deeppink;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: deeppink;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    font-family: stratos, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: deeppink;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+
+p {
+    font-family: stratos, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    letter-spacing: 1.2px;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+h6 {
+    font-family: stratos, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+h5 a {
+    text-decoration: none;
+    color: dodgerblue;
+    padding: 5px;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+iframe {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */    
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
+   filter: gray; /* IE 6-9 */
+}
+
+iframe:hover {
+    -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+    
+    padding: 0px;
+}
+
+.grid-container > div {
+    background-color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.item1 {
+    grid-area: header;
+    height: 600px;
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;  
+}
+
+#headervideo {
+    position: relative;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100px;
+    top: 0;
+    z-index: 0;
+    filter: grayscale(1);
+}
+
+
+.headertitle {
+    text-align: right;
+    width: 400px;
+    float: right;
+    font-size: 100px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 150px; 
+    margin-right: 75px;
+    position: absolute;
+    margin-left: 500px;
+    z-index: 1;
+}
+
+
+/*body*/
+
+.listenlatestpink {
+    width: 900px;
+    height: 10px;
+    background-color: deeppink;
+    position: relative;
+    top: 60px;
+}
+
+.listenlatest {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.homebar {
+    width: 100%;
+    background-color: gold;
+    height: 80px;
+    top: 151px;
+    position: absolute;
+}
+
+.videowrapperhome {
+    margin-right: px;
+}
+
+.homecaption {
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.limitlessalbum {
+    background-color: gold;
+    color: black;
+    height: 500px;
+}
+
+#limitless {
+    width: 350px;
+    margin-left: -500px;
+    margin-top: 75px;
+}
+
+.celllimit {
+    color: deeppink;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 42px;
+    margin-left: 500px;
+    margin-top: -415px;
+}
+
+.albumlisttop {
+    color: black;
+}
+
+.albumcontainer {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*enable scroll if needed*/
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: gold;
+    margin: 10% auto; /* 5% from the top and centered */
+    padding: 50px;
+    border: 1px solid #888;
+    width: 600px; 
+    /*could be more or less, depending on screen size */
+}
+
+/*The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content img {
+    width: 250px;
+    float: left;
+margin-top: -20px
+}
+
+.modal-content h4 {
+    font-size: 20px;
+    color: deeppink;
+    float: left;
+    margin-left: 300px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.modal-content p {
+    text-align: left;
+    width: 300px;
+    color: black;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.albumimgs {
+    width: 250px;
+}
+
+.albumimgs:hover {
+    background-color: gold;
+    opacity: .5;
+}
+
+.cell {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+.ctimg {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: deeppink;
+}
+
+.ctimg:hover {
+    opacity: 0.7;
+    background-color: deeppink;
+}
+
+.indexhead {
+    text-align: right;
+    right: 100px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    z-index: 999;
+    position: absolute;
+    top: 66px;
+}
+
+.ctbox {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.ctcaption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.meetpaul {
+    height: 500px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.paulimg {
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+}
+
+.paulname {
+    background-color: gold;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 280px;
+}
+
+.paulp {
+    margin-left: 400px;
+    margin-right: 50px;
+    position: absolute;
+    width: 550px;
+    line-height: 20px;
+}
+
+.meetsteven {
+    height: 500px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.stevenimg {
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+}
+
+.stevenname {
+    background-color: gold;
+    position: absolute;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 280px;
+    margin-left: 600px;
+    width: 350px;
+}
+
+.stevenp {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    width: 550px;
+    line-height: 20px;
+}
+
+.meetjon {
+    height: 500px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.jonimg {
+    height: 300px;
+    float: left;
+    margin-left: 50px;
+}
+
+.jonname {
+    background-color: gold;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-top: 280px;
+}
+
+.jonp {
+    margin-left: 400px;
+    margin-right: 50px;
+    position: absolute;
+    width: 550px;
+    line-height: 20px;
+}
+
+.meetal {
+    height: 500px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.alimg {
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+}
+
+.alname {
+    background-color: gold;
+    position: absolute;
+    padding-right: 50px;
+    padding-left: 60px;
+    margin-top: 280px;
+    margin-left: 650px;
+    width: 300px
+}
+
+.alp {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: absolute;
+    width: 550px;
+    line-height: 20px;
+}
+
+.getstarted {
+    
+}
+
+.startedimg {
+    width: 700px;
+    float: center;
+    padding: 50px;
+}
+
+.startedimg2 {
+    width: 700px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.startedp h5 {
+    font-size: 60px;
+    width: 700px;
+    line-height: 70px;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.startedp p {
+    margin-left: 250px;
+    margin-right: 50px;
+    width: 500px;
+    text-align: left;
+}
+
+.vidpagestart {
+    height: 800px;
+    background-color: gold;
+}
+
+.vidbarpink {
+    width: 400px;
+    height: 10px;
+    background-color: deeppink;
+    position: relative;
+    top: 70px;
+}
+
+.vidhead {
+    text-align: right;
+    right: 100px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    z-index: 1;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+
+.vidvid {
+    margin-top: 0px;
+}
+
+.vidgrid {
+    display: grid;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 75px;
+}
+
+.vidgridcell {
+    padding: 20px;
+}
+
+.vidgridcellword {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.comeseeuspink {
+    width: 400px;
+    height: 10px;
+    background-color: deeppink;
+    position: relative;
+    top: 200px;
+    float: right;
+}
+
+.comeseeus {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.showhead {
+    text-align: left;
+    left: 100px;
+    letter-spacing: 2px;
+    line-height: 75px;
+    z-index: 999;
+    position: absolute;
+    top: 66px;
+}
+
+.showbar {
+    width: 560px;
+    background-color: gold;
+    height: 80px;
+    top: 56px;
+    position: absolute;
+}
+
+.showdate {
+    margin: -80px 0 0 600px;
+    text-align: left;
+}
+
+.showinfogrid {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: auto;
+    padding-top: 50px;
+}
+
+.showinfodate {
+    text-align: right;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.showinfoplace {
+    text-align: left;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.item3 {
+    grid-area: main;
+    margin-bottom: 100px;
+}
+
+.item5 {
+    grid-area: footer;
+}
+
+footer {
+     font-family: stratos, sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size: 16px;
+    color: black;
+    background-color: gold;
+    padding: 30px;
+    line-height: 20px;
+    letter-spacing: .5px;
+}
+
+.socialicons {
+    width: 600px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.socialicons a {
+    float: left;
+}
+.footericon {
+    width: 50px;
+}
